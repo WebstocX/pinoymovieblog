@@ -22,7 +22,7 @@ function Footer(props) {
     </p>
     </span>
   </div>
-  <div className=" px-1 text-center  md:px-64 md:py-8 bg-gray-700">
+  <div className=" px-5 py-5 text-center  md:px-64 md:py-8 bg-gray-700">
   <Link href="/">
     <a href="#" className="mt-10  text-white  text-sm font-medium" aria-current="page">Home</a>
     </Link>

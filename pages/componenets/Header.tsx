@@ -7,7 +7,7 @@ function Navbar() {
     return (
        
 <nav className="bg-gray-800">
-  <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+  <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
     <div className="relative flex items-center justify-between h-16">
       <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
         <button
@@ -26,28 +26,31 @@ function Navbar() {
           </svg>
         </button>
       </div>
-      <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <div className="flex-shrink-0 cursor-pointer flex items-center">
+      
+      <div className="flex-1  flex items-center justify-center sm:items-stretch ">
+      <div className="flex-shrink-0 md:justify-start justify-center  cursor-pointer flex items-center">
+          <div className="md:-ml-24">
           <Link href="/">
           <img className="block lg:hidden h-8 w-auto" src="/popcorn.svg" alt="Workflow"/>
           </Link>
          <Link href="/">
          <img className="hidden lg:block h-8 w-auto" src="/popcorn.svg" alt="Workflow"/>
          </Link>
+          </div>
         </div>
         <div className="hidden sm:block sm:ml-6">
           <div className="flex space-x-4">
           <Link href="/">
-          <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
+          <a href="#" className="hover:text-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Home</a>
             </Link>
             <Link href="/about">
-          <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About Us</a>
+          <a href="#" className="hover:text-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">About Us</a>
             </Link>
             <Link href="/contact">
-          <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Contact Us</a>
+          <a href="#" className="hover:text-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Contact Us</a>
             </Link>
             <Link href="/disclaimer">
-          <a href="#" className="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Disclaimer</a>
+          <a href="#" className="hover:text-blue-500 text-white px-3 py-2 rounded-md text-sm font-medium" aria-current="page">Disclaimer</a>
             </Link>
           </div>
         </div>

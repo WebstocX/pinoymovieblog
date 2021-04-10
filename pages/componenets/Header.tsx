@@ -70,14 +70,19 @@ function Navbar() {
  
   {mobilemenu &&<div className="sm:hidden" id="mobile-menu">
     <div className="px-2 pt-2 pb-3 space-y-1">
+    <Link href="/">
+          <a href="#" className=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+            </Link>
+            <Link href="/about">
+          <a href="#" className=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">About Us</a>
+            </Link>
+            <Link href="/contact">
+          <a href="#" className=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Contact Us</a>
+            </Link>
+            <Link href="/disclaimer">
+          <a href="#" className=" text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Disclaimer</a>
+            </Link>
      
-      <a href="#" className="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Dashboard</a>
-
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
-
-      <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calendar</a>
     </div>
   </div>}
 </nav>

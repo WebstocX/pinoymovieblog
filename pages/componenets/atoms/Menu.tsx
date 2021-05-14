@@ -1,18 +1,17 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { About, Contact, Home, Services } from "../../constatnts/routes";
 import CustomButton from "./button";
 import CustomModal from "./CustomModal";
 
 interface MenuProps {}
 const Menu: React.FC<MenuProps> = () => {
   const Links = [
-    { link: Home, name: "Home" },
-    { link: About, name: "About" },
-    { link: Contact, name: "Conatct" },
-    { link: Services, name: "Services" },
-  ];
+    {link:"/", name:"Home"},
+    {link:"/about", name:"About"},
+    {link:"/",name:"Conatct"},
+    {link:"/",name:"services"}
+  ]
   const router = useRouter();
   const current = router.pathname;
   const [toggle, changeToggle] = useState(false);

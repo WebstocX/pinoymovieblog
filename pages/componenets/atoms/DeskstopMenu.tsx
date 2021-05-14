@@ -1,6 +1,5 @@
 import Link from "next/link"
 import React, { useState } from "react"
-import { About, Contact, Services,Home } from "../../constatnts/routes"
 import CustomButton from "./button"
 import {useRouter} from "next/router"
 
@@ -9,10 +8,10 @@ interface DeskStopMenuProps{
 }
 const DeskStopMenu:React.FC<DeskStopMenuProps> = () => {
     const Links = [
-        {link:Home, name:"Home"},
-        {link:About, name:"About"},
-        {link:Contact,name:"Conatct"},
-        {link:Services,name:"services"}
+        {link:"/", name:"Home"},
+        {link:"/about", name:"About"},
+        {link:"/",name:"Conatct"},
+        {link:"/",name:"services"}
       ]
       const router = useRouter()
       const current = router.pathname   
@@ -20,7 +19,7 @@ const DeskStopMenu:React.FC<DeskStopMenuProps> = () => {
       console.log(toggle)
   return (
     <div className=" container -mt-5 md:mx-auto flex flex-wrap p-10 md:ml-0 -ml-5 md:p-10 flex-col md:flex-row items-center">
-    <Link href={Home}>
+    <Link href={"/"}>
     <a className="-ml-36 -mx-10 md:mx-0  md:ml-0 flex transform hover:scale-110 motion-reduce:transform-none cursor-pointer   font-medium items-center text-gray-900 mb-4 md:mb-0">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
         <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>

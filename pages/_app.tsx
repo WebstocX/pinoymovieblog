@@ -5,11 +5,9 @@ import Header from './componenets/Header'
 import Head from 'next/head'
 import Box1 from './componenets/Content/Box1'
 import Box2 from './componenets/Content/Box2'
-import { Services } from './constatnts/routes'
 import ServicesBox from './componenets/Content/ServicesBox'
 import AboutSection from './componenets/Content/AboutSection'
 import OurProcess from './componenets/Content/OurProcess'
-import ConatctSection from './componenets/Content/ContactSection'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

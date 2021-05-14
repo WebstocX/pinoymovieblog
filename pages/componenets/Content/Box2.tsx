@@ -5,7 +5,7 @@ interface Box2Props {}
 const Box2: React.FC<Box2Props> = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container md:px-5 md:py-12 py-10 mx-auto">
+      <div className="container md:px-56 md:py-12 py-10 mx-auto">
         <div className="flex flex-col text-center justify-center items-center w-full mb-8">
           <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
             our services

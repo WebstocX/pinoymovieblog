@@ -5,7 +5,7 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
   return (
     <>
     <section className="text-gray-600 body-font">
-      <div className="container md:px-24 mt-10 md:py-12 py-10 mx-auto">
+      <div className="container md:px-56 mt-10 md:py-12 py-10 mx-auto">
         <div className="flex flex-col text-center justify-center items-center w-full mb-8">
 
           <span className=" md:text-5xl text-3xl   leading-1 font-bold   mb-4 text-gray-700">

@@ -1,5 +1,4 @@
 import React from "react";
-import Icons from "../../constatnts/Icons";
 import CustomButton from "../atoms/button";
 
 interface AboutSectionProps {}
@@ -7,7 +6,7 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto flex md:px-10 py-24 md:flex-row flex-col items-center">
+        <div className="container mx-auto flex md:px-10  py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
               about us

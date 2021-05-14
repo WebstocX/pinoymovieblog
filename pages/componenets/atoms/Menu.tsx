@@ -9,8 +9,8 @@ const Menu: React.FC<MenuProps> = () => {
   const Links = [
     {link:"/", name:"Home"},
     {link:"/about", name:"About"},
-    {link:"/",name:"Conatct"},
-    {link:"/",name:"services"}
+    {link:"/contact",name:"Conatct"},
+    {link:"/services",name:"services"}
   ]
   const router = useRouter();
   const current = router.pathname;

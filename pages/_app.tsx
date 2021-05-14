@@ -2,8 +2,14 @@ import '../styles/globals.css'
 import 'tailwindcss/tailwind.css'
 import React, { useEffect } from 'react'
 import Header from './componenets/Header'
-import Footer from './componenets/Footer'
 import Head from 'next/head'
+import Box1 from './componenets/Content/Box1'
+import Box2 from './componenets/Content/Box2'
+import { Services } from './constatnts/routes'
+import ServicesBox from './componenets/Content/ServicesBox'
+import AboutSection from './componenets/Content/AboutSection'
+import OurProcess from './componenets/Content/OurProcess'
+import ConatctSection from './componenets/Content/ContactSection'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -23,7 +29,7 @@ function MyApp({ Component, pageProps }) {
   }, [])
   return (
     <>
-    <Head>
+    <Head >
      <title>Movie & Lyrics Blog</title>
      <meta charSet='utf-8' />
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
@@ -31,15 +37,21 @@ function MyApp({ Component, pageProps }) {
       <meta name='description' content='Description' />
       <meta name='keywords' content='Keywords' />
       <link rel='manifest' href='/manifest.json' />
-      
+      <link rel="preconnect" href="https://fonts.gstatic.com"/>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
       <link rel='apple-touch-icon' href='/apple-icon.png'></link>
       <meta name='theme-color' content='#317EFB' />
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
      </Head>
     <Header/>
-    <Component {...pageProps} />
-     <Footer/>
+    <Component   {...pageProps} />
+     <Box1/>
+     <Box2/>
+     <ServicesBox/>
+     <AboutSection/>
+     <OurProcess/>
+     
      </>
    
   )

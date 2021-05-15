@@ -9,15 +9,16 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-    <Head >
+    <Head  >
      <title>WebStocx</title>
      <meta charSet='utf-8' />
      <link rel="icon" 
       type="image/png" 
       href="/icon-512x512.png"/>
+
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
-      <meta name='description' content='Description' />
+      <meta name='description' content='WebStocx Digital Marketing Agency ' />
       <meta name='keywords' content='Keywords' />
       <link rel='manifest' href='/manifest.json' />
       <link rel="preconnect" href="https://fonts.gstatic.com"/>

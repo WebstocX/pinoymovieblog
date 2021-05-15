@@ -28,9 +28,11 @@ const Menu: React.FC<MenuProps> = () => {
               <img width="60rem" src="/LOGO.png"/>
               </Link>
             </a>
+            <Link href="/">
             <span className="md:ml-3 text-xl font-bold cursor-pointer">
               WebStocX
             </span>
+            </Link>
 
             <CustomButton
               click={() => {

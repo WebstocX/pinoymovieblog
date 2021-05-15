@@ -3,12 +3,6 @@ import 'tailwindcss/tailwind.css'
 import React, { useEffect } from 'react'
 import Header from './componenets/Header'
 import Head from 'next/head'
-import Box1 from './componenets/Content/Box1'
-import Box2 from './componenets/Content/Box2'
-import ServicesBox from './componenets/Content/ServicesBox'
-import AboutSection from './componenets/Content/AboutSection'
-import OurProcess from './componenets/Content/OurProcess'
-import ConatctSection from './componenets/Content/ContactSection'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -29,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head >
-     <title>Movie & Lyrics Blog</title>
+     <title>WebStocx</title>
      <meta charSet='utf-8' />
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />

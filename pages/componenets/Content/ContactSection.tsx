@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
 interface ConatctSectionProps {}
 const ConatctSection: React.FC<ConatctSectionProps> = () => {
+  const router = useRouter();
   return (
     <>
       <section className="text-gray-600 body-font mb-10" style={{backgroundColor:"#FAFAFC"}}>
@@ -36,7 +38,9 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                 <CustomButton
               label="Contact Us"
               children={null}
-              click={null}
+              click={()=>{
+                router.push("/contact")
+              }}
               classN={
                 "duration-500 mt-5 md:w-auto w-full hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-48"
               }
@@ -58,7 +62,9 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                 <CustomButton
               label="Browse Pakages"
               children={null}
-              click={null}
+              click={()=>{
+                router.push("/pakages")
+              }}
               classN={
                 "duration-500 mt-5  hover:ease-in-out transform hover:scale-110 hover:shadow-2xl mb-8 bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
               }

@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
@@ -5,6 +6,7 @@ interface Box1Props {
  
 }
 const Box1: React.FC<Box1Props> = () => {
+  const router = useRouter()
   return (
     <section className="text-gray-600 body-font">
       <div className="container md:px-56 md:py-12 py-10 mx-auto">
@@ -25,7 +27,9 @@ const Box1: React.FC<Box1Props> = () => {
             <CustomButton
               label="Contact Us"
               children={null}
-              click={null}
+              click={()=>{
+                router.push("/contact")
+              }}
               classN={
                 "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
               }

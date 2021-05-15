@@ -71,7 +71,9 @@ const Menu: React.FC<MenuProps> = () => {
             })}
           </nav>
           <CustomButton
-            click={null}
+           click={()=>{
+            router.push("/contact")
+          }}
             label={"Contact Us"}
             children={null}
             classN={
@@ -79,7 +81,7 @@ const Menu: React.FC<MenuProps> = () => {
             }></CustomButton>
         </div>
         {toggle && (
-          <div className="inline-block  bg-white rounded-lg text-left  transform transition-all w-full">
+          <div className="inline-block h-full  bg-white rounded-lg text-left  transform transition-all w-full">
             <div className="ml-5 p-2">
               <ul className="list-none md:list-disc">
                 {Links.map((link) => {
@@ -97,12 +99,16 @@ const Menu: React.FC<MenuProps> = () => {
                   );
                 })}
               </ul>
+              <Link href={"/"}>
               <CustomButton
-                label="Conatct Us"
+                label="Conatct  Us"
                 children={null}
-                classN="w-full -ml-2 shadow-2xl rounded-xl mt-64 text-white font-bold text-2xl p-5 bg-indigo-500"
-                click={null}
+                classN= "w-full -ml-2 shadow-2xl rounded-xl mt-64 text-white font-bold text-2xl p-5 bg-indigo-500"
+                click={()=>{
+                  router.push("/contact")
+                }}
               />
+              </Link>
             </div>
           </div>
         )}

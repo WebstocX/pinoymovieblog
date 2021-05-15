@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
 interface ServicesProps {}
 const Services: React.FC<ServicesProps> = () => {
+  const router = useRouter();
   const ListOne = [
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e053a168cf0eea0cf5f_icon-service-01-growth-template.svg",
@@ -169,7 +171,9 @@ const Services: React.FC<ServicesProps> = () => {
             <CustomButton
               label="Contact Us"
               children={null}
-              click={null}
+              click={()=>{
+                router.push("/contact")
+              }}
               classN={
                 "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
               }

@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       <link rel='manifest' href='/manifest.json' />
       <link rel="preconnect" href="https://fonts.gstatic.com"/>
        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
-      <link rel='apple-touch-icon' href='/apple-icon.png'></link>
+      <link rel='apple-touch-icon' href='/icon-512x512.png'></link>
       <meta name='theme-color' content='#317EFB' />
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />

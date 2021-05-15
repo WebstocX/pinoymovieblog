@@ -91,6 +91,9 @@ const Menu: React.FC<MenuProps> = () => {
                   return (
                     <Link href={link.link}>
                       <li
+                      onClick={()=>{
+                        changeToggle(!toggle)
+                      }}
                         className={
                           current !== link.link
                             ? "font-bold leading-loose text-3xl text-black"

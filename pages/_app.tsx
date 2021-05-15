@@ -12,6 +12,9 @@ function MyApp({ Component, pageProps }) {
     <Head >
      <title>WebStocx</title>
      <meta charSet='utf-8' />
+     <link rel="icon" 
+      type="image/png" 
+      href="/icon-512x512.png"/>
       <meta http-equiv='X-UA-Compatible' content='IE=edge' />
       <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
       <meta name='description' content='Description' />

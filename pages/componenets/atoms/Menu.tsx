@@ -10,7 +10,7 @@ const Menu: React.FC<MenuProps> = () => {
     {link:"/", name:"Home"},
     {link:"/about", name:"About"},
     {link:"/contact",name:"Conatct"},
-    {link:"/services",name:"services"}
+    {link:"/services",name:"Services"}
   ]
   const router = useRouter();
   const current = router.pathname;
@@ -22,18 +22,10 @@ const Menu: React.FC<MenuProps> = () => {
       <div className="w-full text-gray-700 bg-white dark-mode:text-gray-200 md:p-5 dark-mode:bg-gray-800">
         <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center  md:justify-between md:flex-row md:px-6 lg:px-8">
           <div className="p-4 -ml-2 md:ml-0 flex flex-row items-center justify-between ">
-            <a href="#" className="">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-                viewBox="0 0 24 24">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg>
+            <a  className="cursor-pointer">
+              <Link href="/">
+              <img width="60rem" src="/LOGO.png"/>
+              </Link>
             </a>
             <span className="md:ml-3 text-xl font-bold cursor-pointer">
               WebStocX
@@ -83,7 +75,7 @@ const Menu: React.FC<MenuProps> = () => {
             label={"Contact Us"}
             children={null}
             classN={
-              "rounded-lg hidden md:block transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none text-white bg-indigo-500 p-3"
+              "rounded-lg hidden md:block duration-500 hover:ease-in-out transform hover:scale-110 shadow-2xl text-white bg-indigo-500 p-3"
             }></CustomButton>
         </div>
         {toggle && (

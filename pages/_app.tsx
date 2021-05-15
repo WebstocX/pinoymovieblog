@@ -8,6 +8,7 @@ import Box2 from './componenets/Content/Box2'
 import ServicesBox from './componenets/Content/ServicesBox'
 import AboutSection from './componenets/Content/AboutSection'
 import OurProcess from './componenets/Content/OurProcess'
+import ConatctSection from './componenets/Content/ContactSection'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -41,14 +42,11 @@ function MyApp({ Component, pageProps }) {
       <meta name='theme-color' content='#317EFB' />
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
+       
      </Head>
     <Header/>
     <Component   {...pageProps} />
-     <Box1/>
-     <Box2/>
-     <ServicesBox/>
-     <AboutSection/>
-     <OurProcess/>
+    
      
      </>
    

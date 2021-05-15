@@ -130,17 +130,17 @@ const Services: React.FC<ServicesProps> = () => {
   return (
     <>
     <section className="text-gray-600 body-font">
-      <div className="container  ">
-        <div className="flex md:px-5 ml-8 flex-wrap ">
+      <div className="container mx-auto ">
+        <div className="flex md:px-5  flex-wrap ">
           {ListOne.map((list) => {
             return (
               <div className="xl:w-1/3 md:w-auto w-full md:px-3 mb-5  md:w-1/2 ">
-                <div className="border md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
+                <div className="border duration-700 hover:ease-in-out transform hover:scale-110 md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
                   <div
                     className={`${list.bg} w-20 h-20 inline-flex items-center justify-center rounded-2xl  text-indigo-500 mb-4`}>
                    <img src= {list.Icon}/>
                   </div>
-                  <h2 className="text-lg mt-5 font-bold w-full text-gray-900 text-2xl  mb-2">
+                  <h2 className=" mt-5 font-bold  text-gray-900 text-2xl md:text-2xl  mb-2">
                     {list.Heading}
                   </h2>
                   <p className="leading-relaxed mt-5 text-base">{list.para}</p>
@@ -164,24 +164,23 @@ const Services: React.FC<ServicesProps> = () => {
         </div>
       </div>
     </section>
-    <div className="flex mb-8 mt-5 md:px-56  lg:w-2/3 justify-center  sm:flex-row flex-col mx-auto  sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-          <div className="relative  ">
+    <div className="flex mx-auto mb-8 mt-5 md:px-56  lg:w-2/3   sm:flex-row flex-col mx-auto  sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
+          <div className="mx-auto mx-auto ">
             <CustomButton
               label="Contact Us"
               children={null}
               click={null}
               classN={
-                "transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
+                "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
               }
             />
-          </div>
-          <div className="relative ">
+          
             <CustomButton
               label="Learn More"
               children={null}
               click={null}
               classN={
-                "transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
+                "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
               }
             />
           </div>

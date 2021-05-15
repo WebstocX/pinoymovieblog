@@ -27,7 +27,7 @@ const Box1: React.FC<Box1Props> = () => {
               children={null}
               click={null}
               classN={
-                "transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
+                "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
               }
             />
           </div>
@@ -37,7 +37,7 @@ const Box1: React.FC<Box1Props> = () => {
               children={null}
               click={null}
               classN={
-                "transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
+                "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
               }
             />
           </div>

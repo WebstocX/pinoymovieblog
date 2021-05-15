@@ -27,7 +27,7 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
                 children={null}
                 click={null}
                 classN={
-                  "transform hover:scale-110 transition-all hover:shadow-2xl	 motion-reduce:transform-none bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
+                  "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
                 }
               />
             </div>

@@ -32,9 +32,7 @@ function MyApp({ Component, pageProps }) {
      </Head>
     <Header/>
     <Component   {...pageProps} />
-    <img onClick={()=>{
-      document.location.href =  "https://wa.me/917039384232?text=Need Buusiness Related Query Give me a call Or Write Your Custom Message :- "
-    }} className="what h p-0 md:hidden z-50 rounded-3xl bg-black " src="https://img-premium.flaticon.com/png/512/733/733585.png?token=exp=1621176067~hmac=9e77819eadfa7d7ff221caa9801c5607"></img>
+    
     <Footer/>
      
      </>

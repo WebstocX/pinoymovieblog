@@ -58,9 +58,9 @@ function Footer(props) {
           <Link href="/">
               <img className="md:w-16 w-16" src="/LOGO.png"/>
               </Link>
-            <span className="-ml-1 text-xl">WebstocX</span>
+            <span className=" text-xl">WebstocX</span>
           </a>
-          <p className="text-sm text-gray-500 sm:ml-6  mt-2 md:mt-0">© 2021 WebstocX 
+          <p className="text-sm text-gray-500  md:ml-20 ml-6 w-full mt-2 md:mt-0">© 2021 WebstocX 
           </p>
           <span className="inline-flex md:ml-auto  md:mt-0 mt-5 justify-center sm:justify-start">
             <a className="text-gray-500" href="https://www.facebook.com/web.stocx" target="_blank">

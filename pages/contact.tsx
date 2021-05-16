@@ -1,8 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import CustomButton from "./componenets/atoms/button";
-
+import emailjs from 'emailjs-com';
 interface ConatctProps {}
 const Conatct: React.FC<ConatctProps> = () => {
+  const [name , setName] = useState(undefined);
+  const [email , setEmail] = useState(undefined);
+  const [com,setCom] = useState(undefined);
+  const [bud,setBud] = useState(undefined);
+  const [type , setType] = useState(undefined);
+  const [msg , setMsg] = useState(undefined);
+  const [sent , setSent] = useState(false);
+
+  const templateParams = {
+    name: name,
+    email:email,
+    company:com,
+    Budget:bud,
+    Type:type,
+    Message:msg
+};
+ 
+const Send = (e) =>{
+  e.preventDefault();
+  emailjs.send('service_c51upjn','template_oxmqrzj', templateParams, 'user_bganhfH4MCSYdZT07Wcfn')
+    .then((response) => {
+       console.log('SUCCESS!', response.status, response.text);
+       setSent(true)
+       
+    }, (err) => {
+       console.log('FAILED...', err);
+    });
+}
+
+
+
+
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -58,6 +90,9 @@ const Conatct: React.FC<ConatctProps> = () => {
                   Name
                 </label>
                 <input
+                onChange={(e)=>{
+                  setName(e.target.value)
+                }}
                   className={
                     " mt-3 md:h-18 border-2 text-sm border-gray-200 md:ml-0 w-64 hover:outline:none focus:outline-none focus:border-none rounded-xl p-5 "
                   }
@@ -69,6 +104,9 @@ const Conatct: React.FC<ConatctProps> = () => {
                   Email Address
                 </label>
                 <input
+                onChange={(e)=>{
+                  setEmail(e.target.value)
+                }}
                   className={
                     " mt-3 md:h-18 border-2 -ml-3 md:ml-0 text-sm  border-gray-200 w-64 hover:outline:none focus:outline-none focus:border-none rounded-xl p-5 "
                   }
@@ -82,6 +120,9 @@ const Conatct: React.FC<ConatctProps> = () => {
                   Company
                 </label>
                 <input
+                onChange={(e)=>{
+                  setCom(e.target.value)
+                }}
                   className={
                     " mt-3 md:h-18 border-2 text-sm md:ml-0 border-gray-200 w-64 hover:outline:none focus:outline-none focus:border-none rounded-xl p-5 "
                   }
@@ -95,7 +136,11 @@ const Conatct: React.FC<ConatctProps> = () => {
                 <select
                   className={
                     "appearance-none mt-3 md:h-18 border-2 bg-white text-gray-400 -ml-3 md:ml-0 text-sm border-gray-200 w-64 hover:outline:none focus:outline-none focus:border-none rounded-xl p-5 "
-                  }>
+                  }
+                  onChange={(e)=>{
+                    setBud(e.target.value)
+                  }}
+                  >
                   <option>₹5000 - ₹10000</option>
                   <option>₹10000 - ₹15000</option>
                   <option>₹20000 - ₹25000</option>
@@ -124,6 +169,10 @@ const Conatct: React.FC<ConatctProps> = () => {
                     Social Media Marketing
                   </span>
                   <input
+                  value="Social Media Marketing"
+                    onChange={(e)=>{
+                      setType(e.target.value)
+                    }}
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -144,6 +193,10 @@ const Conatct: React.FC<ConatctProps> = () => {
                     Search Engine Optimization
                   </span>
                   <input
+                  value="Search Engine Optimization"
+                  onChange={(e)=>{
+                    setType(e.target.value)
+                  }}
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -163,9 +216,15 @@ const Conatct: React.FC<ConatctProps> = () => {
                   />
 
                   <span className="font-bold leading-2 mt-2 text-medium -ml-2 tracking-normal">
-                    Paid Advertising
+                  PPC Advertising
+
                   </span>
                   <input
+                  onChange={(e)=>{
+                    setType(e.target.value)
+                  }}
+                  value="PPC Advertising
+                  "
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -183,9 +242,13 @@ const Conatct: React.FC<ConatctProps> = () => {
                   />
 
                   <span className="font-bold leading-2 mt-2 text-medium -ml-2 tracking-normal">
-                    Funnel Optimization
+                    Email marketing
                   </span>
                   <input
+                  value="Email marketing"
+                  onChange={(e)=>{
+                    setType(e.target.value)
+                  }}
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -205,9 +268,13 @@ const Conatct: React.FC<ConatctProps> = () => {
                   />
 
                   <span className="font-bold leading-2 mt-2 text-medium -ml-2 tracking-normal">
-                    Advanced Analytics
+                    Google Analytics
                   </span>
                   <input
+                  value="Google Analytics"
+                   onChange={(e)=>{
+                    setType(e.target.value)
+                  }}
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -225,9 +292,13 @@ const Conatct: React.FC<ConatctProps> = () => {
                   />
 
                   <span className="font-bold leading-2 mt-2 text-medium -ml-2 tracking-normal">
-                    Content Marketing
+                  Branding and pramotion
                   </span>
                   <input
+                  value=" Branding and pramotion"
+                  onChange={(e)=>{
+                    setType(e.target.value)
+                  }}
                     type="checkbox"
                     className=" h-8 mt-3 w-8 form-checkbox"
                   />
@@ -239,6 +310,10 @@ const Conatct: React.FC<ConatctProps> = () => {
                 Message
               </label>
               <textarea
+               name="Message"
+               onChange={(e)=>{
+                 setMsg(e.target.value)
+               }}
                 className={
                   " mt-3 h-full border-2 text-sm hover:border-indigo-500 border-gray-200 md:ml-0 w-full hover:outline:none focus:outline-none focus:border-none rounded-xl p-5 "
                 }
@@ -246,11 +321,15 @@ const Conatct: React.FC<ConatctProps> = () => {
               />
             </div>
             <CustomButton
-              label="Send"
+              label={sent?"Sent":"Send"}
               children={null}
-              click={null}
+              click={(e)=>{
+                if(!sent){
+                  Send(e)
+                }}
+              }
               classN={
-                "duration-500 md:mt-10 md:ml-3 mb-8 md:mb-0 w-full hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-48"
+                sent?"duration-500 md:mt-10 md:ml-3 mb-8 md:mb-0 w-full hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-green-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-48":"duration-500 md:mt-10 md:ml-3 mb-8 md:mb-0 w-full hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-48"
               }
             />
           </div>

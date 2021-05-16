@@ -74,15 +74,15 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "UX Analysis",
+          label: "Email Campaign",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Funnel Audit",
+          label: "Email Promotion",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "CR Optimazation",
+          label: "Sales Targeting",
         },
       ],
     },

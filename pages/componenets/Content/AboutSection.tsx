@@ -16,10 +16,8 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
               The great team of industry experts behind Growth
             </span>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+            We have excellent amount expertise team in this organisation.
+Our every team member have experience in different Field so that is help us to design and develop the New idea
             </p>
             <div className="flex justify-center">
               <CustomButton

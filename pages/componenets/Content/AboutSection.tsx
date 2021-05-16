@@ -1,8 +1,10 @@
+import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
 interface AboutSectionProps {}
 const AboutSection: React.FC<AboutSectionProps> = () => {
+  const router = useRouter();
   return (
     <>
       <section className="text-gray-600 body-font">
@@ -23,7 +25,9 @@ Our every team member have experience in different Field so that is help us to d
               <CustomButton
                 label="About Us"
                 children={null}
-                click={null}
+                click={()=>{
+                  router.push("/about")
+                }}
                 classN={
                   "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
                 }

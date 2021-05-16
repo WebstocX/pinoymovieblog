@@ -49,9 +49,7 @@ const Send = (e) =>{
               Let’s work together
             </span>
             <p className="mb-8 leading-relaxed ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              ante velit nunc morbi pretium. Ut nullam dolor, pulvinar proin
-              viverra ullamcorper ac, eget.
+            let's make improve your business globally with us contact now or connect with us now 
             </p>
             <div className=" justify-center">
               <span className="font-bold text-indigo-900 text-lg">

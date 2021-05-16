@@ -3,20 +3,21 @@ import React from "react";
 interface OurProcessProps {}
 const OurProcess: React.FC<OurProcessProps> = () => {
   const List = [
-    {
-      Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3581df603d9960e96c4cef_image-process-01-growth-template.svg",
-      Heading: "1. Marketing Plan",
-      para: "Lorem ipsum dolor sit amet, consecteturor adipiscing elit. Tincidunt donec vulputate ipsum erat lorem ipsum.",
-    },
+    
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3581dfb4462e7d78278b3e_image-process-02-growth-template.svg",
-      Heading: "2. Execution",
-      para: "Lorem ipsum dolor sit amet, consecteturor adipiscing elit. Tincidunt donec vulputate ipsum erat lorem ipsum.",
+      Heading: "1. Execution",
+      para: "We could do it with your Ideas merge with our expertise and experience.It could be a part of process that will make difference in your web designing.",
     },
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3587a32b0404227a0d019e_image-process-03-growth-template.svg",
-      Heading: "3. Growth & Scale",
-      para: "Lorem ipsum dolor sit amet, consecteturor adipiscing elit. Tincidunt donec vulputate ipsum erat lorem ipsum.",
+      Heading: "2. Growth & Scale",
+      para: "Our growth is described by our proficiency in how could we providing services to our customers. You can go with us without hesitation. We grow together.",
+    },
+    {
+      Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3581df603d9960e96c4cef_image-process-01-growth-template.svg",
+      Heading: "3. Team work",
+      para: "The main thing which can give you assurity is your business is in good hand We could make it impossible to possible by working together as a team.",
     },
   ];
   return (

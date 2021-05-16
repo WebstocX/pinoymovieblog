@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
-interface ServicesProps {}
-const Services: React.FC<ServicesProps> = () => {
+interface ServicesBoxProps {}
+const ServicesBox: React.FC<ServicesBoxProps> = () => {
   const router = useRouter();
   const ListOne = [
     {
@@ -193,4 +193,4 @@ const Services: React.FC<ServicesProps> = () => {
   );
 };
 
-export default Services;
+export default ServicesBox;

@@ -182,7 +182,9 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
             <CustomButton
               label="Learn More"
               children={null}
-              click={null}
+              click={()=>{
+                router.push("/services")
+              }}
               classN={
                 "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"
               }

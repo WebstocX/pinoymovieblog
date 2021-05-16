@@ -1,6 +1,6 @@
 {
-    "name": "PWA App",
-    "short_name": "App",
+    "name": "WebStocX",
+    "short_name": "WebStocX",
     "icons": [
       {
         "src": "/icon-192x192.png",

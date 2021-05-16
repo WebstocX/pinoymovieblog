@@ -19,7 +19,7 @@ export default function Home() {
      <Box2/>
      <ServicesBox/>
      <AboutSection/>
-     <OurProcess/>
+     {/* <OurProcess/> */}
      <ConatctSection/>
     </>
   )

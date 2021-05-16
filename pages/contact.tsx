@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import CustomButton from "./componenets/atoms/button";
 import emailjs from 'emailjs-com';
+import debounce from 'lodash.debounce';
 interface ConatctProps {}
 const Conatct: React.FC<ConatctProps> = () => {
   const [name , setName] = useState(undefined);
   const [email , setEmail] = useState(undefined);
   const [com,setCom] = useState(undefined);
-  const [bud,setBud] = useState(undefined);
+  const [bud,setBud] = useState("₹5000-₹10000");
   const [type , setType] = useState(undefined);
   const [msg , setMsg] = useState(undefined);
   const [sent , setSent] = useState(false);

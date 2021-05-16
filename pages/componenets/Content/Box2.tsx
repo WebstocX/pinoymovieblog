@@ -14,7 +14,7 @@ const Box2: React.FC<Box2Props> = () => {
             High-impact services to take your business to the next level
           </span>
           <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-            We have wonderful types of technological expertise, they will help
+            We have wonderful types of designing and development expertise, they will help
             you as kind of digital partner with the type of end to end solution
             services.
           </p>

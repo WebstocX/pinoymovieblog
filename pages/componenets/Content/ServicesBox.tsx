@@ -10,7 +10,7 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e053a168cf0eea0cf5f_icon-service-01-growth-template.svg",
       Heading: "Social Media Marketing",
       bg: "bg-blue-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: " Social media marketing is the important key that gaining your business by reaching people through the various social media channels  both practitioners and researchers.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f8d6e62b39c0caff0c_icon-our-services-01-growth-template.svg",
@@ -30,7 +30,7 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e04be853418b0ac3e01_icon-service-02-growth-template.svg",
       Heading: "Search Engine Optimization",
       bg: "bg-indigo-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: "SEO stands for “search engine optimization.” It is the process of getting traffic from the “free,” “organic,” “editorial” or “natural” search results on search engines. ",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f982d6e35d0b6a2b7e_icon-our-services-02-growth-template.svg",
@@ -48,9 +48,9 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
     },
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e053a168c0be1a0cf60_icon-service-03-growth-template.svg",
-      Heading: "Paid Advertising",
+      Heading: "PPC Advertising",
       bg: "bg-yellow-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: "Pay-per-click (PPC) is an internet advertising model used to drive traffic to websites, in which an advertiser pays a publisher (typically a search engine, website owner) when the ad is clicked. ",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f964f15b664ddadea3_icon-our-services-03-growth-template.svg",
@@ -69,8 +69,8 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
     {
       Icon:"https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e05a224a36b43f65ad0_icon-service-04-growth-template.svg",
       bg: "bg-red-100",
-      Heading: "Funnel Optimazation",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      Heading: "Email marketing",
+      para: "Email marketing is the act of sending a commercial message, typically to a group of people, using email. In its broadest sense, every email sent to a potential or current customer could be considered email marketing. ",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
@@ -89,8 +89,8 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e05b5fe6dd8ea8f2039_icon-service-05-growth-template.svg",
       bg: "bg-red-100",
-      Heading: "Advaced Analytics",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      Heading: "Google Analytics",
+      para: "Google Analytics is a free web analytics service offered by Google. It helps website web statistics analysis company Urchin in 2005 and app owners (both organisations and individuals) track and report on all kinds of data from their users.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9e4d49e3dd972d40b_icon-our-services-05-growth-template.svg",
@@ -109,8 +109,8 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e0597194f3f8bae43c4_icon-service-06-growth-template.svg",
       bg: "bg-teal-100",
-      Heading: "Content Marketing",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      Heading: "Branding and pramotion ",
+      para: "While branding makes a product recognizable.  the promotion of a brand builds the trust of the customer and makes them believe that the quality of the product or service the brand provides is the best choice available in the market.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04fb8765116e2795856b_icon-our-services-06-growth-template.svg",

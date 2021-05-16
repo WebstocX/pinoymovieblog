@@ -9,75 +9,119 @@ const Pakages: React.FC<PakagesProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3afb6ce4d49eada172bf4b_icon-package-01-growth-template.svg",
       Heading: "Standard",
-      Cost: "5000",
+      Cost: "5999",
       bg: "bg-blue-100",
       para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Social Media Marketing",
+          label: "1 year Domain ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "SEO: Search Engine Optimization",
+          label: "1 year hosting",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Paid Avertising",
+          label: "6 months of website management ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Normal Support",
+          label: "24/7 Tech support ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "4 to 6 template ",
         },
       ],
     },
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3afe16d4e2850f698b055c_icon-package-02-growth-template.svg",
       Heading: "Premium",
-      Cost: "10000",
+      Cost: "10,999",
       bg: "bg-blue-100",
       para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "All in Standard Plan",
+          label: "1 year Domain ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Content Marketing",
+          label: "1 year hosting ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Advanced Analytics",
+          label: "9 months of website management ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Premium Support",
+          label: "24/7 support ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "6 to 10 & above template ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Ads services & SMM",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "On page SEO &Off page link building ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Redesigning",
         },
       ],
     },
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3b00980b5427bfcfba5d4d_icon-package-03-growth-template.svg",
       Heading: "Deluxe",
-      Cost: "15000",
+      Cost: "14999",
       bg: "bg-blue-100",
       para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "All in Premium Plan",
+          label: "2 year Domain ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Conversion Optimization",
+          label: "2 year hosting ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Custom Growth Marketing Plan",
+          label: "24 months of website management ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "24/7 Tech support   ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "15 template & above",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Customization as per the requirements  ",
         },
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Instant Response Support  ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Social media marketing  ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Seo Services  ",
+        },
+        {
+          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Google adwords and analytics  ",
         },
       ],
     },
@@ -172,24 +216,34 @@ const Pakages: React.FC<PakagesProps> = () => {
       <section className="text-gray-600  body-font md:px-16 md:py-24 py-20 ">
         <div className="container  border-t-8 border rounded-2xl border-indigo-500 flex felx-col md:px-56 md:py-12  mx-auto">
           <div className="w-full   md:w-1/2">
-            <img className="md:-ml-16  ml-16 md:mt-10" src="https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b08300f15a50b635bb1db_image-packages-contact-us-growth-template.svg" />
+            <img
+              className="md:-ml-16  ml-16 md:mt-10"
+              src="https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b08300f15a50b635bb1db_image-packages-contact-us-growth-template.svg"
+            />
           </div>
           <div className="w-full   md:w-1/2">
-          <div className="md:ml-0 md:mt-0 -ml-28 mt-40">
-          <span className="font-bold  text-2xl w-96 ">Need help with a custom marketing campaign?</span>
-            <p className="w-full md:mt-5 mt-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend
-              dictum mi senectus dolor sit egestas odio lorem. A non quis
-              senectus ullamcorper egestas praesent quis ut. Integer odio augue.
-            </p>
-            <CustomButton label="Conatct Us" click={()=>{
-                router.push("/contact")
-            }}
-            classN={
-                "duration-500  w-56 mt-5 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl mb-8 md:mb-0 bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-56"
-              }
-            children={null}/>
-          </div>
+            <div className="md:ml-0 md:mt-0 -ml-28 mt-40">
+              <span className="font-bold  text-2xl w-96 ">
+                Need help with a custom marketing campaign?
+              </span>
+              <p className="w-full md:mt-5 mt-5">
+                Here's a advice on finding good.. Check out our services and
+                Projects that would help you out to make a decision. Get In
+                touch Today! You will definitely get the satisfaction once you
+                touch with us We get you to find a solution on your Ideas with
+                your Business on a digital platform.
+              </p>
+              <CustomButton
+                label="Conatct Us"
+                click={() => {
+                  router.push("/contact");
+                }}
+                classN={
+                  "duration-500  w-56 mt-5 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl mb-8 md:mb-0 bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-56"
+                }
+                children={null}
+              />
+            </div>
           </div>
         </div>
       </section>

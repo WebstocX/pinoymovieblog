@@ -21,11 +21,11 @@ const Menu: React.FC<MenuProps> = () => {
   return (
     <>
       <div className="w-full text-gray-700 bg-white dark-mode:text-gray-200 md:p-5 dark-mode:bg-gray-800">
-        <div className="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center  md:justify-between md:flex-row md:px-6 lg:px-8">
+        <div className="flex flex-col max-w-screen-xl -py-10 px-4 mx-auto md:items-center  md:justify-between md:flex-row  lg:px-8">
           <div className="p-4 -ml-2 md:ml-0 flex flex-row items-center justify-between ">
             <a  className="cursor-pointer">
               <Link href="/">
-              <img width="50rem" src="/LOGO.png"/>
+              <img className="md:w-24 w-16" src="/LOGO.png"/>
               </Link>
             </a>
             <Link href="/">

@@ -25,7 +25,7 @@ const Menu: React.FC<MenuProps> = () => {
           <div className="p-4 -ml-2 md:ml-0 flex flex-row items-center justify-between ">
             <a  className="cursor-pointer">
               <Link href="/">
-              <img width="60rem" src="/LOGO.png"/>
+              <img width="50rem" src="/LOGO.png"/>
               </Link>
             </a>
             <Link href="/">

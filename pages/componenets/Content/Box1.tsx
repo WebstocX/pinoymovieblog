@@ -2,17 +2,16 @@ import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "../atoms/button";
 
-interface Box1Props {
- 
-}
+interface Box1Props {}
 const Box1: React.FC<Box1Props> = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <section className="text-gray-600 body-font">
       <div className="container md:px-56 md:py-12 py-10 mx-auto">
-      <div className="flex flex-col text-center justify-center items-center w-full mb-8" >
-          <span className="text-indigo-500 md:text-xl textt-center mb-2 ">marketing agency
-</span>
+        <div className="flex flex-col text-center justify-center items-center w-full mb-8">
+          <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
+          your idea our creativity
+          </span>
           <span className=" md:text-5xl text-3xl   leading-1 font-bold   mb-4 text-gray-700">
             We help you to grow your business to the next level
           </span>
@@ -27,8 +26,8 @@ const Box1: React.FC<Box1Props> = () => {
             <CustomButton
               label="Contact Us"
               children={null}
-              click={()=>{
-                router.push("/contact")
+              click={() => {
+                router.push("/contact");
               }}
               classN={
                 "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-indigo-500 md:h-18 text-white rounded-xl p-4 md:w-48"
@@ -39,8 +38,8 @@ const Box1: React.FC<Box1Props> = () => {
             <CustomButton
               label="Our Services"
               children={null}
-              click={()=>{
-                router.push("/services")
+              click={() => {
+                router.push("/services");
               }}
               classN={
                 "duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl bg-white border-2 border-gray-200 md:h-18 text-black rounded-xl p-4 md:w-48"

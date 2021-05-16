@@ -139,9 +139,7 @@ const Pakages: React.FC<PakagesProps> = () => {
               Tailor-made packages to help your business grow
             </span>
             <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus
-              ante velit nunc morbi pretium. Ut nullam dolor, pulvinar proin
-              viverra ullamcorper ac, eget.
+              Get ypur dream website in your budget with all high-trch features oly on WebStocx 
             </p>
           </div>
         </div>
@@ -204,7 +202,9 @@ const Pakages: React.FC<PakagesProps> = () => {
                     classN={
                       "duration-500  w-56 -mt-8 -ml-24  md:-mt-8 absolute md:-ml-28 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl mb-8 bg-indigo-500 border-2 border-gray-200 md:h-18 text-white rounded-xl p-4 md:w-56"
                     }
-                    click={null}
+                    click={()=>{
+                      router.push("/contact")
+                    }}
                     children={null}
                   />
                 </div>

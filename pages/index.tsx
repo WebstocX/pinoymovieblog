@@ -10,7 +10,8 @@ import ServicesBox from './componenets/Content/ServicesBox';
 export default function Home() {
   return (
     <>
-     <Head>
+    <div style={{overflowX:'hidden'}}>
+     <Head >
      <title>WebStocx</title>
      <link rel="preconnect" href="https://fonts.gstatic.com"/>
        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
@@ -21,6 +22,7 @@ export default function Home() {
      <AboutSection/>
      <OurProcess/>
      <ConatctSection/>
+     </div>
     </>
   )
 }

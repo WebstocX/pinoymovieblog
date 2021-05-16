@@ -2,9 +2,20 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 @import "tailwindcss/screens";
-.post-img{
-    object-fit: contain;
+.post-img {
+  object-fit: contain;
 }
-body{
-    font-family: 'Poppins' !important; 
+body {
+  font-family: "Poppins" !important;
+}
+.what {
+  position: fixed;
+  bottom: 2em;
+  right: 2rem;
+  text-decoration: none;
+  height: 3rem;
+  width: 3rem;
+}
+.h{
+    animation: pulse 5s linear infinite;
 }

@@ -19,20 +19,6 @@
         "type": "image/png"
       }
     ],
-"shortcuts": [
-    {
-      "name": "Services",
-      "description": "list of our services",
-      "url": "./pages/services",
-      "icons": [{ "src": "/images/today.png", "sizes": "192x192" }]
-    },
-    {
-      "name": "Our Pakages",
-      "description": "check our wide range of pakages",
-      "url": "./pages/pakages",
-      "icons": [{ "src": "/images/tomorrow.png", "sizes": "192x192" }]
-    }
-  ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "start_url": "/",

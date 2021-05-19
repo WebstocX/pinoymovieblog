@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import CustomButton from "./componenets/atoms/button";
 import ConatctSection from "./componenets/Content/ContactSection";
+import OurOffice from "./componenets/Content/OurOffice";
 import OurTeam from "./componenets/Content/OurTeam";
 
 interface AboutProps {}
@@ -190,6 +191,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
       <OurTeam/>
+      <OurOffice/>
       <ConatctSection />
     </>
   );

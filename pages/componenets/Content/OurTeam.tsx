@@ -17,7 +17,7 @@ const OurTeam:React.FC<OurTeamProps> = () => {
   <div className="container md:px-5  mx-auto">
   <Hero tag={"our team"} sectionstyle={null} 
   children={null}
-  para={"we have all our job as passion we enjoy our work!"}
+  para={"Our work is our passion so we don't compromise on that We deliver what we say!"}
   head={"Meet the team at Growth"}
   />
     <div className="flex md:px-24   flex-wrap -m-4">

@@ -2,6 +2,7 @@
   "name": "pinoymovieblog",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://github.com/SagarJadhavWebDev",
   "scripts": {
     "dev": "next dev -p 4000",
     "build": "next build && next export",
@@ -9,6 +10,7 @@
   },
   "dependencies": {
     "@tailwindcss/postcss7-compat": "^2.1.0",
+    "aos": "^3.0.0-beta.6",
     "autoprefixer": "^9.8.6",
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",

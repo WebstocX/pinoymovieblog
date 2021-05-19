@@ -1,5 +1,6 @@
 import { link } from "node:fs";
 import React from "react";
+import Hero from "../atoms/Hero";
 interface OurProcessProps {}
 const OurProcess: React.FC<OurProcessProps> = () => {
   const List = [
@@ -22,29 +23,20 @@ const OurProcess: React.FC<OurProcessProps> = () => {
   ];
   return (
     <>
-      <section className="text-gray-600 body-font">
-        <div className="container md:px-56  md:py-12 py-10 mx-auto">
-          <div className="flex flex-col text-center justify-center items-center w-full mb-8">
-            <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
-              our services
-            </span>
-            <span className=" md:text-5xl text-3xl   leading-1 font-bold   mb-4 text-gray-700">
-              A simple, yet powerful and efficient process
-            </span>
-            <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              We have wonderful types of technological expertise, they will help
-              you as kind of digital partner with the type of end to end
-              solution services.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="text-gray-600 body-font">
+      
+      <Hero
+      sectionstyle={null}
+      tag={"our services"}
+      head={" A simple, yet powerful and efficient process"}
+      children={null}
+       para={"We have wonderful types of technological expertise, they will help you as kind of digital partner with the type of end to end solution services."}
+      />
+      <section className="text-gray-600 mb-16 body-font">
         <div className="container px-1 py-2 mx-auto">
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             {List.map((list)=>{
                 return(
-                    <div className="p-4 md:px-10 md:w-1/3 flex flex-col text-center items-center">
+                    <div data-aos="fade-left" data-aos-duration="2000" className="p-4 md:px-10 md:w-1/3 flex flex-col text-center items-center">
               <div className=" inline-flex mb-5 items-center bg-white justify-center rounded-2xl  text-indigo-500  flex-shrink-0">
                <img  className="rounded-3xl" src={list.Icon}/>
               </div>

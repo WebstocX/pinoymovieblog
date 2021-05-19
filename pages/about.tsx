@@ -8,7 +8,7 @@ const About: React.FC<AboutProps> = () => {
   const router = useRouter();
   return (
     <>
-      <section className="   text-gray-600 body-font">
+      <section data-aos="fade-left" data-aos-duration="2000" className="   text-gray-600 body-font">
         <div className="container md:px-56 md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -18,9 +18,8 @@ const About: React.FC<AboutProps> = () => {
               A great company has a great team behind
             </span>
             <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              We have excellent amount expertise team in this organisation. Our
-              every team member have experience in different Field so that is
-              help us to design and develop the New idea
+              We are young and talented team behind the WebStocX to enusre all small business come as online store to increase your business 
+              and popularity .
             </p>
           </div>
           <div className="flex lg:w-2/3 justify-center w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
@@ -57,7 +56,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
 
-      <section className="text-gray-600 -mt-16 body-font">
+      <section data-aos="fade-left" data-aos-duration="2000" className="text-gray-600 -mt-16 body-font">
         <div className="container mx-auto flex md:px-10  py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -68,9 +67,8 @@ const About: React.FC<AboutProps> = () => {
               We thrive to help our clients have global impact
             </span>
             <p className="mb-8 leading-relaxed">
-              We have excellent amount expertise team in this organisation. Our
-              every team member have experience in different Field so that is
-              help us to design and develop the New idea
+             We have a proper planing to get your business online asap with lowest cost you will be see on internet
+             & make our client happy :)
             </p>
             <div className="flex justify-center">
               <CustomButton
@@ -95,7 +93,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
 
-      <section className="  text-gray-600 body-font">
+      <section data-aos="fade-left" data-aos-duration="2000" className="  text-gray-600 body-font">
         <div className="container md:px-56  md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -105,15 +103,14 @@ const About: React.FC<AboutProps> = () => {
               The core values behind our work
             </span>
             <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              We have wonderful types of technological expertise, they will help
-              you as kind of digital partner with the type of end to end
-              solution services.
+              We Worked with plans and execute it to 100% to get desire outcome the main values we put in this are 
+              Planing , Excution , Tracking , Followup's to our clients
             </p>
           </div>
         </div>
       </section>
 
-      <section className=" mb-24 text-gray-600 body-font">
+      <section data-aos="fade-left" data-aos-duration="2000" className=" mb-24 text-gray-600 body-font">
         <div className="container   md:px-16 mx-auto flex flex-wrap">
           <div className="flex flex-wrap  md:-m-4">
             <div className="p-4 lg:w-1/2 -px-16 md:w-full">
@@ -142,7 +139,7 @@ const About: React.FC<AboutProps> = () => {
               </div>
             </div>
            
-            <div className="p-4 lg:w-1/2 -px-16 md:w-full">
+            <div data-aos="fade-left" data-aos-duration="2000" className="p-4 lg:w-1/2 -px-16 md:w-full">
               <div className="flex border-2  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                 <div className="w-16 h-16 hidden md:block sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-2xl bg-indigo-100 text-indigo-500 flex-shrink-0">
                   <img
@@ -165,7 +162,7 @@ const About: React.FC<AboutProps> = () => {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/2 -px-16 md:w-full">
+            <div data-aos="fade-left" data-aos-duration="2000" className="p-4 lg:w-1/2 -px-16 md:w-full">
               <div className="flex border-2  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                 <div className="w-16 h-16 hidden md:block sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-2xl bg-indigo-100 text-indigo-500 flex-shrink-0">
                   <img

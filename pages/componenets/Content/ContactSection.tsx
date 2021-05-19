@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
-import { utimesSync } from "node:fs";
 import React, { useState } from "react";
 import CustomButton from "../atoms/button";
+import Hero from "../atoms/Hero";
 
 interface ConatctSectionProps {}
 const ConatctSection: React.FC<ConatctSectionProps> = () => {
@@ -9,22 +9,15 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
 
   return (
     <>
-      <section
-        className="text-gray-600 body-font mb-10"
-        style={{ backgroundColor: "#FAFAFC" }}>
-        <div className="container md:px-56 mt-12 md:py-12 py-10 mx-auto">
-          <div className="flex flex-col text-center mt-10 justify-center items-center w-full">
-            <span className=" md:text-5xl text-3xl   leading-1 font-bold   mb-4 text-indigo-900">
-              Need help with a project?
-            </span>
-            <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              Here's a advice on finding good.. Check out our services and
-              Projects that would help you out to make a decision.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section
+     
+      <Hero
+      tag={null}
+      sectionstyle={"#FAFAFC"}
+      children={null}
+      head={"Need help with a project?"}
+      para={"Here's a advice on finding good.. Check out our services and Projects that would help you out to make a decision."}
+      />
+      <section 
         className="text-gray-600  body-font mb-24"
         style={{ backgroundColor: "#FAFAFC" }}>
         <div className="container p-5   md:px-48   mx-auto">
@@ -38,7 +31,7 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                   }
                 />
               </div>
-              <div className="flex-grow">
+              <div data-aos="fade-left" data-aos-duration="2000" className="flex-grow">
                 <h2 className="text-indigo-1000 text-2xl  font-bold mb-3">
                   {"Get in touch today!"}
                 </h2>
@@ -70,7 +63,7 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                   }
                 />
               </div>
-              <div className="flex-grow">
+              <div data-aos="fade-left" data-aos-duration="2000" className="flex-grow">
                 <h2 className="text-indigo-1000 text-2xl  font-bold mb-3">
                   {"Browse our Packages"}
                 </h2>

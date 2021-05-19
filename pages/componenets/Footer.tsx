@@ -15,7 +15,8 @@ function Footer(props) {
               </Link>
         <span className="-ml-1 text-xl">WebStocX</span>
       </a>
-      <p className="mt-2 ml-2 text-sm text-gray-500">Lorem ipsum dolor sit amet, consecteturor adipiscing elit. Tincidunt donec vulputate ipsum erat urna auctor. Eget phasellus ideirs.</p>
+      <p className="mt-2 ml-2 text-sm text-gray-500">
+       WebStocx is digital agency to ensure each & every business gets online in your budget friendly cost</p>
     </div>
     <div className="flex-grow flex flex-wrap  leading-12 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/4   md:w-1/2 w-full px-12">

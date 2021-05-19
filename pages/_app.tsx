@@ -4,9 +4,13 @@ import React, { useEffect } from 'react'
 import Header from './componenets/Header'
 import Head from 'next/head'
 import Footer from './componenets/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function MyApp({ Component, pageProps }) {
- 
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <>

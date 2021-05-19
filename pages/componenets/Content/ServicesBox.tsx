@@ -131,13 +131,13 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
   
   return (
     <>
-    <section className="text-gray-600 body-font">
+    <section  className="text-gray-600 body-font">
       <div className="container mx-auto ">
         <div className="flex md:px-5  flex-wrap ">
           {ListOne.map((list) => {
             return (
               <div className="xl:w-1/3 md:w-auto w-full md:px-3 mb-5  md:w-1/2 ">
-                <div className="border  md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
+                <div data-aos="fade-left" data-aos-duration="2000" className="border  md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
                   <div
                     className={`${list.bg} w-20 h-20 inline-flex items-center justify-center rounded-2xl  text-indigo-500 mb-4`}>
                    <img src= {list.Icon}/>

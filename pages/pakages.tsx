@@ -38,7 +38,7 @@ const Pakages: React.FC<PakagesProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3afe16d4e2850f698b055c_icon-package-02-growth-template.svg",
       Heading: "Premium",
-      Cost: "10,999",
+      Cost: "12,499",
       bg: "bg-blue-100",
       para: "This is our most affordable plan for any well settled business to get there store online in single click you just need to contact us rest will handle by our team",
       sublist: [

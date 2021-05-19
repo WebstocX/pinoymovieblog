@@ -11,7 +11,7 @@ const Pakages: React.FC<PakagesProps> = () => {
       Heading: "Standard",
       Cost: "5999",
       bg: "bg-blue-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: "This is our base plan to get your busniess online with affordable price & more services you will ever get at this range.",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
@@ -40,7 +40,7 @@ const Pakages: React.FC<PakagesProps> = () => {
       Heading: "Premium",
       Cost: "10,999",
       bg: "bg-blue-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: "This is our most affordable plan for any well settled business to get there store online in single click you just need to contact us rest will handle by our team",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
@@ -81,7 +81,7 @@ const Pakages: React.FC<PakagesProps> = () => {
       Heading: "Deluxe",
       Cost: "14999",
       bg: "bg-blue-100",
-      para: "The way you got your brand know to your valuable customer We assure to get that adorable reach to your customers.",
+      para: "We don't lie to our customers so this plan is for big buiness to get you online and grow your business through advertising & marketing this is the mosr effective to grow your sales ",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",

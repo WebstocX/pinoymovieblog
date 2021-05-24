@@ -38,7 +38,7 @@ const Pakages: React.FC<PakagesProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3afe16d4e2850f698b055c_icon-package-02-growth-template.svg",
       Heading: "Premium",
-      Cost: "13,499",
+      Cost: "13,999",
       bg: "bg-blue-100",
       para: "This is our most affordable plan for any well settled business to get there store online in single click you just need to contact us rest will handle by our team",
       sublist: [
@@ -86,7 +86,7 @@ const Pakages: React.FC<PakagesProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9663ce9aa51/5f3b00980b5427bfcfba5d4d_icon-package-03-growth-template.svg",
       Heading: "Deluxe",
-      Cost: "16999",
+      Cost: "16,999",
       bg: "bg-blue-100",
       para: "We don't lie to our customers so this plan is for big buiness to get you online and grow your business through advertising & marketing this is the mosr effective to grow your sales ",
       sublist: [

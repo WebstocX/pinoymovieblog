@@ -14,24 +14,28 @@ const Pakages: React.FC<PakagesProps> = () => {
       para: "This is our base plan to get your busniess online with affordable price & more services you will ever get at this range.",
       sublist: [
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "1 year Domain ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "1 year hosting",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "6 months of website management ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "24/7 Tech support ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "4 to 6 template ",
+        },
+        {
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          label: "Karan ",
         },
       ],
     },
@@ -43,40 +47,40 @@ const Pakages: React.FC<PakagesProps> = () => {
       para: "This is our most affordable plan for any well settled business to get there store online in single click you just need to contact us rest will handle by our team",
       sublist: [
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "1 year Domain ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "1 year hosting ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "9 months of website management ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "24/7 support ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "6 to 10 & above template ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Social Media Marketing ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "SEO ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Installable Web App (PWA)",
         },
         {
 
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
 
           label: "Redesigning ",
 
@@ -91,58 +95,58 @@ const Pakages: React.FC<PakagesProps> = () => {
       para: "We don't lie to our customers so this plan is for big buiness to get you online and grow your business through advertising & marketing this is the mosr effective to grow your sales ",
       sublist: [
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "2 year Domain ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "2 year hosting ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "24 months of website management ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "24/7 Tech support   ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "15 template & above",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Customization as per the requirements  ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Instant Response Support  ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Social media marketing  ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "SEO Services  ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Social media marketing  ",
         },
         {
 
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
 
           label: "Premium Logo Service",
 
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Installable Web App (PWA) ",
         },
         {
-          Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
+          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "Whatsapp Direct Chat Feature ",
         },
       ],

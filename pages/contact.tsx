@@ -63,7 +63,7 @@ const Send = (e) =>{
                     }
                   />
                   <span className="text-lg mt-3 hover:text-indigo-700 ml-5 w-full">
-                    <a href="mailto:webstocx@gmail.com">WebStocx@gmail.com</a>
+                    <a href="mailto:contact@webstocx.com">contact@webstocx.com</a>
                   </span>
                 </div>
               </div>

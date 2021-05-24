@@ -33,10 +33,7 @@ const Pakages: React.FC<PakagesProps> = () => {
           Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "4 to 6 template ",
         },
-        {
-          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Karan ",
-        },
+    
       ],
     },
     {

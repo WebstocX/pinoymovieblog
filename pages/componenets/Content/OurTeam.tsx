@@ -6,10 +6,10 @@ interface OurTeamProps{
 }
 const OurTeam:React.FC<OurTeamProps> = () => {
     const team =[
-        {name:"Mr. Aman Jadhav",position:"Founder & CEO", pic:"https://lh3.googleusercontent.com/proxy/9WrHbkXrWvajhDpuvoGI3KaOYlpuSm_mJLiim-CXV0qqfUeJ_W3t1jkOhv1A3NYvhV7bez6KFkLDNvJea6YoBSNLsmOjKuewV9uaX2z2qLWgorR2uyHO"},
-        {name:"Mr. Karan Jadhav",position:"Co-Founder & Head Of operations", pic:"https://lh3.googleusercontent.com/proxy/9WrHbkXrWvajhDpuvoGI3KaOYlpuSm_mJLiim-CXV0qqfUeJ_W3t1jkOhv1A3NYvhV7bez6KFkLDNvJea6YoBSNLsmOjKuewV9uaX2z2qLWgorR2uyHO"},
-        {name:"Mr. Sanket Mandavkar",position:"Co-Founder & Director of  Sales ", pic:"https://lh3.googleusercontent.com/proxy/9WrHbkXrWvajhDpuvoGI3KaOYlpuSm_mJLiim-CXV0qqfUeJ_W3t1jkOhv1A3NYvhV7bez6KFkLDNvJea6YoBSNLsmOjKuewV9uaX2z2qLWgorR2uyHO"},
-        {name:"Mr.Sagar Jadhav",position:"Front-end Developer", pic:"https://lh3.googleusercontent.com/proxy/9WrHbkXrWvajhDpuvoGI3KaOYlpuSm_mJLiim-CXV0qqfUeJ_W3t1jkOhv1A3NYvhV7bez6KFkLDNvJea6YoBSNLsmOjKuewV9uaX2z2qLWgorR2uyHO"}
+        {name:"Mr. Aman Jadhav",position:"Founder & CEO", pic:"unnamed.png"},
+        {name:"Mr. Karan Jadhav",position:"Co-Founder & Head Of operations", pic:"unnamed.png"},
+        {name:"Mr. Sanket Mandavkar",position:"Co-Founder & Director of  Sales ",pic:"unnamed.png" },
+        {name:"Mr.Sagar Jadhav",position:"Front-end Developer",pic:"unnamed.png" }
     ]
   return (
       <>

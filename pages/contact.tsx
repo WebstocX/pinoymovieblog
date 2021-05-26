@@ -38,7 +38,7 @@ const Send = (e) =>{
 
   return (
     <>
-      <section  className="text-gray-600 mb-16 body-font">
+      <section data-aos="fade-down"      data-aos-easing="linear"      data-aos-duration="1500" className="text-gray-600 mb-16 body-font">
         <div className="container mx-auto flex md:px-10 py-0  py-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:-mt-96   md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">

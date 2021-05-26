@@ -10,7 +10,7 @@ const About: React.FC<AboutProps> = () => {
   const router = useRouter();
   return (
     <>
-      <section data-aos="fade-left" data-aos-duration="2000" className="   text-gray-600 body-font">
+      <section data-aos="zoom-out-in" data-aos-duration="1000" className="   text-gray-600 body-font">
         <div className="container md:px-56 md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">

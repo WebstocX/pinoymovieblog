@@ -174,7 +174,7 @@ const Pakages: React.FC<PakagesProps> = () => {
               
               return (
                 <div
-                  className="xl:w-1/3 data-aos={"zoom-in-left"}   md:w-auto w-full md:px-3 mb-5  md:w-1/2 "
+                  className="xl:w-1/3 data-aos="zoom-in-left"   md:w-auto w-full md:px-3 mb-5  md:w-1/2 "
                   style={{
                     alignContent: "center !important",
                     justifyContent: "center !important",

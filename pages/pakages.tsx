@@ -170,8 +170,7 @@ const Pakages: React.FC<PakagesProps> = () => {
       <section  className="text-gray-600 body-font mb-10">
         <div className="container mx-auto ">
           <div className="flex md:px-5  flex-wrap ">
-            {ListOne.map((list,index) => {
-              
+            {ListOne.map((list) => {
               return (
                 <div
                   className="xl:w-1/3 data-aos="zoom-in-left"   md:w-auto w-full md:px-3 mb-5  md:w-1/2 "

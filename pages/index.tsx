@@ -13,6 +13,7 @@ export default function Home() {
     <div style={{overflowX:'hidden'}}>
      <Head >
      <title>WebStocx</title>
+       <link rel="canonical" href="https://www.webstocx.com"/>
      <link rel="preconnect" href="https://fonts.gstatic.com"/>
        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
      </Head>

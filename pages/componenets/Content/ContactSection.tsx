@@ -63,7 +63,7 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                   }
                 />
               </div>
-              <div data-aos="fade-left" data-aos-duration="2000" className="flex-grow">
+              <div data-aos="zoom-out-down" data-aos-duration="1000" className="flex-grow">
                 <h2 className="text-indigo-1000 text-2xl  font-bold mb-3">
                   {"Browse our Packages"}
                 </h2>

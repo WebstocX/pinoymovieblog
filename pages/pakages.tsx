@@ -152,7 +152,7 @@ const Pakages: React.FC<PakagesProps> = () => {
 
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section data-aos="zoom-in-left" className="text-gray-600 body-font">
         <div className="container md:px-56 md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -167,13 +167,14 @@ const Pakages: React.FC<PakagesProps> = () => {
           </div>
         </div>
       </section>
-      <section className="text-gray-600 body-font mb-10">
+      <section  className="text-gray-600 body-font mb-10">
         <div className="container mx-auto ">
           <div className="flex md:px-5  flex-wrap ">
-            {ListOne.map((list) => {
+            {ListOne.map((list,index) => {
+              
               return (
                 <div
-                  className="xl:w-1/3  md:w-auto w-full md:px-3 mb-5  md:w-1/2 "
+                  className="xl:w-1/3 data-aos={"zoom-in-left"}   md:w-auto w-full md:px-3 mb-5  md:w-1/2 "
                   style={{
                     alignContent: "center !important",
                     justifyContent: "center !important",

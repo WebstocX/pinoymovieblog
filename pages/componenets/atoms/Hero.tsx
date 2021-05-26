@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({tag,head,para,children, sectionstyle}) => {
 console.log("Hero", tag)
   return (
     <>
-      <section data-aos="fade-left" data-aos-duration="2000" style={{backgroundColor:sectionstyle}} className="text-gray-600 body-font">
+      <section data-aos="zoom-out-up" data-aos-duration="1000" style={{backgroundColor:sectionstyle}} className="text-gray-600 body-font">
         <div data-aos="fade-left" data-aos-duration="2000" className="container md:px-56 md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">

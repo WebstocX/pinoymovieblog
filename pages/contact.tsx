@@ -53,7 +53,7 @@ const Send = (e) =>{
             </p>
             <div className=" justify-center">
               <span className="font-bold text-indigo-900 text-lg">
-                Conatct Information
+                Contact Information
               </span>
               <div className="mt-5 w-full">
                 <div className=" rounded flex  ">

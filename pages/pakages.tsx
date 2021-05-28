@@ -162,7 +162,7 @@ const Pakages: React.FC<PakagesProps> = () => {
               Tailor-made packages to help your business grow
             </span>
             <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
-              Get your dream website in your budget with all high-tech features oly on WebStocx 
+              Get your dream website in your budget with all high-tech features only on WebStocx 
             </p>
           </div>
         </div>

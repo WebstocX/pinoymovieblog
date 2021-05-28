@@ -30,7 +30,7 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e04be853418b0ac3e01_icon-service-02-growth-template.svg",
       Heading: "Search Engine Optimization",
       bg: "bg-indigo-100",
-      para: "SEO stands for “search engine optimization.” It is the process of getting traffic from the “free,” “organic,” “editorial” or “natural” search results on search engines. ",
+      para: "SEO stands for “search engine optimization.” It is the process of getting traffic from the free, organic, editorial  or natural search results on search engines. ",
       sublist: [
         {
           Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f3b04f982d6e35d0b6a2b7e_icon-our-services-02-growth-template.svg",

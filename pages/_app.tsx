@@ -34,13 +34,7 @@ function MyApp({ Component, pageProps }) {
         <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
         <meta name='viewport' content='minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover' />
         <meta name="google-site-verification" content="8gmB9T9e8CwgviKIOsGfCCZPO_slq_vfHPPOIVsLjik" />
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6TX6TJNPGB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-6TX6TJNPGB');
-</script>
+
      </Head>
     <Header/>
     <Component   {...pageProps} />

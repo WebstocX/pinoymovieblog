@@ -23,7 +23,7 @@ const Conatct: React.FC<ConatctProps> = () => {
  
 const Send = (e) =>{
   e.preventDefault();
-  emailjs.send('service_c51upjn','template_oxmqrzj', templateParams, 'user_bganhfH4MCSYdZT07Wcfn')
+  emailjs.send('service_u3wveqh','template_tsuz9zj', templateParams, 'user_AeNRgDFZhpSsv2dIvHERE)
     .then((response) => {
        console.log('SUCCESS!', response.status, response.text);
        setSent(true)

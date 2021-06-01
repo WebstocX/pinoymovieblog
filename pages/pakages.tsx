@@ -127,10 +127,7 @@ const Pakages: React.FC<PakagesProps> = () => {
           Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
           label: "SEO Services  ",
         },
-        {
-          Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",
-          label: "Social media marketing  ",
-        },
+        
         {
 
           Icon: "5f3b04f9d4e28544078b158e_icon-our-services-04-growth-template.svg",

@@ -12,7 +12,10 @@ export default class MyDocument extends Document {
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
 
-          
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-4EL33QXMTP`}
+          />
 
           <script
 

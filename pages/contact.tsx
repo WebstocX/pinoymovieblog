@@ -291,7 +291,7 @@ const Send = (e) =>{
                   />
 
                   <span className="font-bold leading-2 mt-2 text-medium -ml-2 tracking-normal">
-                  Branding and pramotion
+                  Branding and Pramotion
                   </span>
                   <input
                   value=" Branding and pramotion"

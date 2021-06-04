@@ -74,7 +74,7 @@ const About: React.FC<AboutProps> = () => {
             </p>
             <div className="flex justify-center">
               <CustomButton
-                label="Conatct Us"
+                label="Contact Us"
                 children={null}
                 click={() => {
                   router.push("/contact");
@@ -106,7 +106,7 @@ const About: React.FC<AboutProps> = () => {
             </span>
             <p className="lg:w-2/3 w-full mx-auto leading-relaxed text-base">
               We Worked with plans and execute it to 100% to get desire outcome the main values we put in this are 
-              Planing , Excution , Tracking , Followup's to our clients
+              Planing , Execution , Tracking , Followup's to our clients
             </p>
           </div>
         </div>

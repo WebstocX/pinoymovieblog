@@ -34,7 +34,7 @@ function Footer(props) {
           </Link>
           <Link href="/pakages">
           <li className="mb-3 cursor-pointer">
-            <a className="text-gray-600  hover:text-indigo-800">Our Pakages</a>
+            <a className="text-gray-600  hover:text-indigo-800">Our Packages</a>
           </li>
           </Link>
           <Link href="/contact">

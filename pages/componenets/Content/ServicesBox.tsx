@@ -109,7 +109,7 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
     {
       Icon: "https://assets.website-files.com/5f35521e2ed7d9ce30e9aa4e/5f357e0597194f3f8bae43c4_icon-service-06-growth-template.svg",
       bg: "bg-teal-100",
-      Heading: "Branding and pramotion ",
+      Heading: "Branding and Pramotion ",
       para: "While branding makes a product recognizable.  the promotion of a brand builds the trust of the customer and makes them believe that the quality of the product or service the brand provides is the best choice available in the market.",
       sublist: [
         {

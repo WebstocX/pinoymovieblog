@@ -71,7 +71,7 @@ const ConatctSection: React.FC<ConatctSectionProps> = () => {
                 We ensure you that once you look in to our plans will connect with us with such a wide features and services.
                 </p>
                 <CustomButton
-                  label="Browse Pakages"
+                  label="Browse Packages"
                   children={null}
                   click={() => {
                     router.push("/pakages");

@@ -8,7 +8,7 @@ interface ServicesProps{
 const Services:React.FC<ServicesProps> = () => {
   return (
       <>
-       <section  data-aos="zoom-in-left" className="text-gray-600 body-font">
+       <section   className="text-gray-600 body-font">
       <div className="container md:px-56 md:py-12 py-10 mx-auto">
         <div className="flex flex-col text-center justify-center items-center w-full mb-8">
           <span className="text-indigo-500 md:text-xl textt-center mb-2 ">

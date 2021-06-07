@@ -137,7 +137,7 @@ const ServicesBox: React.FC<ServicesBoxProps> = () => {
           {ListOne.map((list) => {
             return (
               <div className="xl:w-1/3 md:w-auto w-full md:px-3 mb-5  md:w-1/2 ">
-                <div data-aos="fade-right" data-aos-duration="1000" className="border  md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
+                <div  className="border  md:w-auto w-full border-2 mx-auto mt-5  p-6 border-gray-200 hover:border-indigo-500   rounded-3xl">
                   <div
                     className={`${list.bg} w-20 h-20 inline-flex items-center justify-center rounded-2xl  text-indigo-500 mb-4`}>
                    <img src= {list.Icon}/>

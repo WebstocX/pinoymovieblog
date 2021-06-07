@@ -24,7 +24,7 @@ const OurTeam:React.FC<OurTeamProps> = () => {
    {team.map((t)=>{
        return(
            <>
-            <div data-aos="fade-left" data-aos-duration="2000"  className="p-4 cursor-pointer  w-full md:mb-10 lg:w-1/4 md:w-1/2">
+            <div   className="p-4 cursor-pointer  w-full md:mb-10 lg:w-1/4 md:w-1/2">
         <div className="h-full duration-500 hover:ease-in-out transform hover:scale-110 hover:shadow-2xl  flex py-0 flex-col border-2 border-gray-200 rounded-2xl items-center text-center">
           <img alt="team" style={{objectFit:"contain"}} className="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src={t.pic}/>
           <div className="w-full">

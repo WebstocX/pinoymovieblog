@@ -36,7 +36,7 @@ const OurProcess: React.FC<OurProcessProps> = () => {
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             {List.map((list)=>{
                 return(
-                    <div data-aos="fade-left" data-aos-duration="1000" className="p-4 md:px-10 md:w-1/3 flex flex-col text-center items-center">
+                    <div  className="p-4 md:px-10 md:w-1/3 flex flex-col text-center items-center">
               <div className=" inline-flex mb-5 items-center bg-white justify-center rounded-2xl  text-indigo-500  flex-shrink-0">
                <img  className="rounded-3xl" src={list.Icon}/>
               </div>

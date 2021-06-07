@@ -10,7 +10,7 @@ const About: React.FC<AboutProps> = () => {
   const router = useRouter();
   return (
     <>
-      <section data-aos="zoom-out-in" data-aos-duration="1000" className="   text-gray-600 body-font">
+      <section  className="   text-gray-600 body-font">
         <div className="container md:px-56 md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -58,7 +58,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
 
-      <section data-aos="fade-left" data-aos-duration="1000" className="text-gray-600 -mt-16 body-font">
+      <section  className="text-gray-600 -mt-16 body-font">
         <div className="container mx-auto flex md:px-10  py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -95,7 +95,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
 
-      <section data-aos="fade-right" data-aos-duration="1000" className="  text-gray-600 body-font">
+      <section  className="  text-gray-600 body-font">
         <div className="container md:px-56  md:py-12 py-10 mx-auto">
           <div className="flex flex-col text-center justify-center items-center w-full mb-8">
             <span className="text-indigo-500 md:text-xl textt-center mb-2 ">
@@ -112,7 +112,7 @@ const About: React.FC<AboutProps> = () => {
         </div>
       </section>
 
-      <section data-aos="fade-right" data-aos-duration="1000" className=" mb-24 text-gray-600 body-font">
+      <section  className=" mb-24 text-gray-600 body-font">
         <div className="container   md:px-16 mx-auto flex flex-wrap">
           <div className="flex flex-wrap  md:-m-4">
             <div className="p-4 lg:w-1/2 -px-16 md:w-full">
@@ -141,7 +141,7 @@ const About: React.FC<AboutProps> = () => {
               </div>
             </div>
            
-            <div data-aos="fade-left" data-aos-duration="1000" className="p-4 lg:w-1/2 -px-16 md:w-full">
+            <div  className="p-4 lg:w-1/2 -px-16 md:w-full">
               <div className="flex border-2  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                 <div className="w-16 h-16 hidden md:block sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-2xl bg-indigo-100 text-indigo-500 flex-shrink-0">
                   <img
@@ -164,7 +164,7 @@ const About: React.FC<AboutProps> = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" className="p-4 lg:w-1/2 -px-16 md:w-full">
+            <div  className="p-4 lg:w-1/2 -px-16 md:w-full">
               <div className="flex border-2  rounded-3xl border-gray-200 border-opacity-50 p-8 sm:flex-row flex-col">
                 <div className="w-16 h-16 hidden md:block sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-2xl bg-indigo-100 text-indigo-500 flex-shrink-0">
                   <img

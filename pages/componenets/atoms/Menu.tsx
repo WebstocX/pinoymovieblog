@@ -11,7 +11,8 @@ const Menu: React.FC<MenuProps> = () => {
     {link:"/about", name:"About"},
     {link:"/contact",name:"Contact"},
     {link:"/services",name:"Services"},
-    {link:"/pakages",name:"Our Packages"}
+    {link:"/pakages",name:"Our Packages"},
+    {link:"/privacy-policy",name:"Privacy Policy"}
   ]
   const router = useRouter();
   const current = router.pathname;

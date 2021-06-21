@@ -1,4 +1,3 @@
-import { link } from "node:fs";
 import React from "react";
 import Hero from "../atoms/Hero";
 interface OurProcessProps {}

@@ -72,7 +72,7 @@ const Privacy: React.FC<PrivacyProps> = () => {
 
                 </p>
                 <p className="mt-2">
-                    perofoma invoice
+                    performance invoice
 
                </p>
                 <p className="mt-2">

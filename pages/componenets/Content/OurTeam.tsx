@@ -8,8 +8,8 @@ const OurTeam:React.FC<OurTeamProps> = () => {
     const team =[
         {name:"Mr. Aman Jadhav",position:"Founder & CEO", pic:"unnamed.png"},
         {name:"Mr. Karan Jadhav",position:"Co-Founder & Head Of operations", pic:"unnamed.png"},
-        {name:"Mr. Sanket Mandavkar",position:"Co-Founder & Director of  Sales ",pic:"unnamed.png" },
-        {name:"Mr.Sagar Jadhav",position:"Front-end Developer",pic:"unnamed.png" }
+        {name:"Mr. Sanket Mandavkar",position:"Co-Founder & Director of  Sales ",pic:"unnamed.png" }
+        
     ]
   return (
       <>
